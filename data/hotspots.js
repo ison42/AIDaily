@@ -1,5 +1,5 @@
 window.AI_DESIGN_DAILY_DATA = {
-  "generatedAt": "2026-05-09T07:23:19.850Z",
+  "generatedAt": "2026-05-09T07:28:32.770Z",
   "itemCount": 18,
   "sources": [
     {
@@ -286,47 +286,79 @@ window.AI_DESIGN_DAILY_DATA = {
       "designerTake": "关注它对视觉生成、品牌素材、内容生产或设计资产管理的影响。"
     },
     {
-      "id": "OpenAI News:https://openai.com/index/openai-grove",
-      "title": "Announcing OpenAI Grove Cohort 2",
-      "summary": "Applications are now open for OpenAI Grove Cohort 2, a 5-week founder program designed for individuals at any stage, from pre-idea to product. Participants receive $50K in API credits, early access to AI tools, and hands",
-      "url": "https://openai.com/index/openai-grove",
-      "publishedAt": "2026-01-02T10:00:00.000Z",
-      "sourceName": "OpenAI News",
-      "sourceType": "official",
+      "id": "Creative Bloq:https://www.creativebloq.com/3d/video-game-design/the-promise-and-panic-of-unity-ais-open-beta-rollout-explained",
+      "title": "The promise and panic of Unity AI’s open beta rollout explained",
+      "summary": "A powerful tool or pipeline to 'AI slop' games?",
+      "url": "https://www.creativebloq.com/3d/video-game-design/the-promise-and-panic-of-unity-ais-open-beta-rollout-explained",
+      "publishedAt": "2026-05-06T15:00:00.000Z",
+      "sourceName": "Creative Bloq",
+      "sourceType": "design news",
+      "categories": [
+        "Video Game Design",
+        "3D"
+      ],
+      "topics": [
+        "visual",
+        "workflow"
+      ],
+      "relevanceScore": 112,
+      "designerTake": "关注它对视觉生成、品牌素材、内容生产或设计资产管理的影响。"
+    },
+    {
+      "id": "Smashing Magazine:https://smashingmagazine.com/2026/04/bug-free-workforce-ai-disrupting-teams/",
+      "title": "The “Bug-Free” Workforce: How AI Efficiency Is Subtly Disrupting The Interactions That Build Strong Teams",
+      "summary": "AI tools are eliminating the need to “bug” colleagues for help, but the informal interactions they replace are the very scaffolding that builds team trust, belonging, and innovation. Casey Hudetz and Eric Olive explore t",
+      "url": "https://smashingmagazine.com/2026/04/bug-free-workforce-ai-disrupting-teams/",
+      "publishedAt": "2026-04-27T10:00:00.000Z",
+      "sourceName": "Smashing Magazine",
+      "sourceType": "design",
       "categories": [],
       "topics": [
-        "visual",
         "ux",
-        "workflow"
+        "workflow",
+        "risk"
       ],
-      "relevanceScore": 114,
-      "designerTake": "关注它对视觉生成、品牌素材、内容生产或设计资产管理的影响。"
+      "relevanceScore": 110,
+      "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
     },
     {
-      "id": "OpenAI News:https://openai.com/index/jetbrains-2025",
-      "title": "Inside JetBrains—the company reshaping how the world writes code",
-      "summary": "JetBrains is integrating GPT-5 across its coding tools, helping millions of developers design, reason, and build software faster.",
-      "url": "https://openai.com/index/jetbrains-2025",
-      "publishedAt": "2025-11-25T00:00:00.000Z",
-      "sourceName": "OpenAI News",
-      "sourceType": "official",
-      "categories": [
-        "B2B Story"
-      ],
+      "id": "Smashing Magazine:https://smashingmagazine.com/2026/03/getting-started-popover-api/",
+      "title": "Getting Started With The Popover API",
+      "summary": "What happens if you rebuild a single tooltip using the browser’s native model without the aid of a library? The Popover API turns tooltips from something you simulate into something the browser actually understands. Open",
+      "url": "https://smashingmagazine.com/2026/03/getting-started-popover-api/",
+      "publishedAt": "2026-03-02T10:00:00.000Z",
+      "sourceName": "Smashing Magazine",
+      "sourceType": "design",
+      "categories": [],
       "topics": [
-        "visual",
         "ux",
         "workflow"
       ],
-      "relevanceScore": 114,
-      "designerTake": "关注它对视觉生成、品牌素材、内容生产或设计资产管理的影响。"
+      "relevanceScore": 110,
+      "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
     },
     {
-      "id": "OpenAI News:https://openai.com/index/gpt-5-1-codex-max",
-      "title": "Building more with GPT-5.1-Codex-Max",
-      "summary": "Introducing GPT-5.1-Codex-Max, a faster, more intelligent agentic coding model for Codex. The model is designed for long-running, project-scale work with enhanced reasoning and token efficiency.",
-      "url": "https://openai.com/index/gpt-5-1-codex-max",
-      "publishedAt": "2025-11-19T00:00:00.000Z",
+      "id": "Smashing Magazine:https://smashingmagazine.com/2026/01/practical-use-ai-coding-tools-responsible-developer/",
+      "title": "Practical Use Of AI Coding Tools For The Responsible Developer",
+      "summary": "AI coding tools like agents can be valuable allies in everyday development work. They help handle time-consuming grunt work, guide you through large legacy codebases, and offer low-risk ways to implement features in prev",
+      "url": "https://smashingmagazine.com/2026/01/practical-use-ai-coding-tools-responsible-developer/",
+      "publishedAt": "2026-01-30T13:00:00.000Z",
+      "sourceName": "Smashing Magazine",
+      "sourceType": "design",
+      "categories": [],
+      "topics": [
+        "ux",
+        "workflow"
+      ],
+      "relevanceScore": 110,
+      "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
+    },
+    {
+      "id": "OpenAI News:https://openai.com/index/introducing-chatgpt-images-2-0",
+      "title": "Introducing ChatGPT Images 2.0",
+      "summary": "ChatGPT Images 2.0 introduces a state-of-the-art image generation model with improved text rendering, multilingual support, and advanced visual reasoning.",
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-0",
+      "publishedAt": "2026-04-21T12:00:00.000Z",
       "sourceName": "OpenAI News",
       "sourceType": "official",
       "categories": [
@@ -334,49 +366,9 @@ window.AI_DESIGN_DAILY_DATA = {
       ],
       "topics": [
         "visual",
-        "ux",
-        "workflow"
+        "ux"
       ],
-      "relevanceScore": 114,
-      "designerTake": "关注它对视觉生成、品牌素材、内容生产或设计资产管理的影响。"
-    },
-    {
-      "id": "OpenAI News:https://openai.com/index/eneos-materials",
-      "title": "ENEOS Materials brings ChatGPT Enterprise to manufacturing",
-      "summary": "ENEOS Materials uses ChatGPT Enterprise to speed research, improve plant design safety, and cut HR analysis time by 90%, with 80% reporting better workflows.",
-      "url": "https://openai.com/index/eneos-materials",
-      "publishedAt": "2025-09-24T17:00:00.000Z",
-      "sourceName": "OpenAI News",
-      "sourceType": "official",
-      "categories": [
-        "B2B Story"
-      ],
-      "topics": [
-        "visual",
-        "ux",
-        "workflow",
-        "risk"
-      ],
-      "relevanceScore": 114,
-      "designerTake": "关注它对视觉生成、品牌素材、内容生产或设计资产管理的影响。"
-    },
-    {
-      "id": "OpenAI News:https://openai.com/index/schoolai",
-      "title": "SchoolAI builds an AI platform that empowers teachers",
-      "summary": "SchoolAI uses GPT-4.1, image generation, and TTS to power safe, teacher-guided AI tools for over 1 million classrooms, improving engagement, oversight, and personalized learning.",
-      "url": "https://openai.com/index/schoolai",
-      "publishedAt": "2025-09-22T10:00:00.000Z",
-      "sourceName": "OpenAI News",
-      "sourceType": "official",
-      "categories": [
-        "B2B Story"
-      ],
-      "topics": [
-        "visual",
-        "ux",
-        "workflow"
-      ],
-      "relevanceScore": 114,
+      "relevanceScore": 102,
       "designerTake": "关注它对视觉生成、品牌素材、内容生产或设计资产管理的影响。"
     }
   ]

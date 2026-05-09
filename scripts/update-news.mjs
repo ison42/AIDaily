@@ -46,6 +46,7 @@ const topicRules = [
 
 const aiRelevanceRule =
   /(^|\W)(ai|artificial intelligence|machine learning|ml|llm|gpt|chatgpt|openai|anthropic|claude|copilot|agent|generative|model|neural|midjourney|runway)(\W|$)|人工智能|生成式|大模型|模型|智能体/i;
+const maxAgeDays = 120;
 
 const takeByTopic = {
   visual: "关注它对视觉生成、品牌素材、内容生产或设计资产管理的影响。",
@@ -204,6 +205,7 @@ const results = await Promise.all(sources.map(fetchSource));
 const seen = new Set();
 const items = results
   .flatMap((result) => result.items)
+  .filter((item) => Date.now() - new Date(item.publishedAt).getTime() <= maxAgeDays * 24 * 60 * 60 * 1000)
   .filter((item) => {
     const key = item.url.replace(/[#?].*$/, "");
     if (seen.has(key)) return false;
