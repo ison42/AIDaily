@@ -8,11 +8,13 @@
 
 ## 更新真实数据
 
-运行下面的命令会从 RSS/公开源抓取真实条目并生成 `data/hotspots.json`：
+运行下面的命令会从中文 RSS/公开源抓取真实条目并生成 `data/hotspots.json`：
 
 ```sh
 node scripts/update-news.mjs
 ```
+
+当前源包括：量子位、InfoQ 中文、36氪、IT之家。脚本会过滤非中文条目。
 
 ## 部署
 

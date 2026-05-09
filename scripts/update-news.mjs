@@ -6,34 +6,25 @@ const execFileAsync = promisify(execFile);
 
 const sources = [
   {
-    name: "OpenAI News",
-    type: "official",
-    url: "https://openai.com/news/rss.xml",
+    name: "量子位",
+    type: "中文 AI 媒体",
+    url: "https://www.qbitai.com/feed",
+    aiFocused: true,
   },
   {
-    name: "GitHub Blog AI & ML",
-    type: "official blog",
-    url: "https://github.blog/ai-and-ml/feed/",
+    name: "InfoQ 中文",
+    type: "中文技术媒体",
+    url: "https://www.infoq.cn/feed",
   },
   {
-    name: "TechCrunch AI",
-    type: "news",
-    url: "https://techcrunch.com/category/artificial-intelligence/feed/",
+    name: "36氪",
+    type: "中文商业科技媒体",
+    url: "https://36kr.com/feed",
   },
   {
-    name: "The Verge AI",
-    type: "news",
-    url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-  },
-  {
-    name: "Creative Bloq",
-    type: "design news",
-    url: "https://www.creativebloq.com/feeds.xml",
-  },
-  {
-    name: "Smashing Magazine",
-    type: "design",
-    url: "https://www.smashingmagazine.com/feed/",
+    name: "IT之家",
+    type: "中文科技媒体",
+    url: "https://www.ithome.com/rss/",
   },
 ];
 
@@ -45,7 +36,7 @@ const topicRules = [
 ];
 
 const aiRelevanceRule =
-  /(^|\W)(ai|artificial intelligence|machine learning|ml|llm|gpt|chatgpt|openai|anthropic|claude|copilot|agent|generative|model|neural|midjourney|runway)(\W|$)|人工智能|生成式|大模型|模型|智能体/i;
+  /(^|\W)(ai|aigc|agi|llm|gpt|chatgpt|openai|anthropic|claude|copilot|agent|midjourney|runway|deepseek|gemini|sora|kimi)(\W|$)|人工智能|生成式|大模型|模型|智能体|文心|通义|豆包|月之暗面|多模态|语音模型|图像生成|视频生成|AI眼镜|算力|推理|训练/i;
 const maxAgeDays = 120;
 
 const takeByTopic = {
@@ -118,8 +109,15 @@ function designerTake(topics) {
 }
 
 function isRelevant(source, item) {
-  if (!source.type.includes("design")) return true;
-  return aiRelevanceRule.test([item.title, item.summary, item.categories.join(" ")].join(" "));
+  const text = [item.title, item.summary, item.categories.join(" ")].join(" ");
+  return isChineseArticle(item) && (source.aiFocused || aiRelevanceRule.test(text));
+}
+
+function isChineseArticle(item) {
+  const text = [item.title, item.summary, item.categories.join(" ")].join("");
+  const chineseChars = text.match(/[\u3400-\u9fff]/g)?.length || 0;
+  const latinChars = text.match(/[a-z]/gi)?.length || 0;
+  return chineseChars >= 8 && chineseChars >= latinChars * 0.35;
 }
 
 function relevanceScore(source, item, topics) {
@@ -182,7 +180,7 @@ async function fetchText(url, signal) {
     const response = await fetch(url, {
       signal,
       headers: {
-        "user-agent": "AI Design Daily feed bot (+https://github.com/ison42/AIDaily)",
+        "user-agent": "Mozilla/5.0 (compatible; AI Design Daily feed bot; +https://github.com/ison42/AIDaily)",
         accept: "application/rss+xml, application/xml, text/xml, */*",
       },
     });
@@ -194,7 +192,7 @@ async function fetchText(url, signal) {
       "--max-time",
       "25",
       "-A",
-      "AI Design Daily feed bot (+https://github.com/ison42/AIDaily)",
+      "Mozilla/5.0 (compatible; AI Design Daily feed bot; +https://github.com/ison42/AIDaily)",
       url,
     ]);
     return stdout;
