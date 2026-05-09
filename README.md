@@ -6,6 +6,14 @@
 
 直接用浏览器打开 `index.html` 即可。
 
+## 更新真实数据
+
+运行下面的命令会从 RSS/公开源抓取真实条目并生成 `data/hotspots.json`：
+
+```sh
+node scripts/update-news.mjs
+```
+
 ## 部署
 
 站点可以通过 GitHub Pages 的 `gh-pages` 分支部署。

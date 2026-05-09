@@ -29,9 +29,9 @@
         </nav>
 
         <div class="sidebar-note">
-          <span>更新节奏</span>
-          <strong>每天 09:30</strong>
-          <p>把模型、工具、案例和安全更新翻译成设计语境。</p>
+          <span>真实数据源</span>
+          <strong id="sourceCount">加载中</strong>
+          <p id="sourceSummary">只展示从 RSS/官方公开源抓到的真实条目。</p>
         </div>
       </aside>
 
@@ -39,11 +39,11 @@
         <section class="topbar" aria-label="页面工具">
           <div class="search-wrap">
             <label class="visually-hidden" for="searchInput">搜索热点</label>
-            <input id="searchInput" type="search" placeholder="搜索工具、公司、关键词..." />
+            <input id="searchInput" type="search" placeholder="搜索标题、来源、关键词..." />
           </div>
-          <div class="date-pill">
-            <span>2026.05.09</span>
-            <strong>周六</strong>
+          <div class="date-pill" id="updatedPill">
+            <span>读取真实来源</span>
+            <strong>...</strong>
           </div>
         </section>
 
@@ -51,8 +51,8 @@
           <div class="hero-copy">
             <p class="eyebrow">Daily signal for product & visual designers</p>
             <h1 id="pageTitle">今天值得设计师留意的 AI 动态</h1>
-            <p>
-              不追求把所有新闻塞满屏幕，只保留会影响界面、内容生产、设计流程和创意判断的信号。
+            <p id="heroSubtitle">
+              正在读取真实互联网来源。没有抓到的数据不会显示，也不会用猜测内容补齐。
             </p>
           </div>
           <div class="hero-visual" aria-hidden="true">
@@ -74,27 +74,27 @@
 
         <section class="metrics" aria-label="今日概览">
           <article>
-            <span>高相关动态</span>
-            <strong>12</strong>
-            <p>筛掉纯技术噪音后留下的设计相关信号</p>
+            <span>真实条目</span>
+            <strong id="metricItems">...</strong>
+            <p>来自 RSS/公开源的新闻和更新</p>
           </article>
           <article>
-            <span>可试工具</span>
-            <strong>5</strong>
-            <p>适合今天就加入工作流的小更新</p>
+            <span>数据来源</span>
+            <strong id="metricSources">...</strong>
+            <p>每条内容都保留原文链接</p>
           </article>
           <article>
-            <span>趋势提醒</span>
-            <strong>3</strong>
-            <p>会影响视觉、交互和内容策略的长期变化</p>
+            <span>最近发布</span>
+            <strong id="metricLatest">...</strong>
+            <p>按发布时间倒序排列</p>
           </article>
         </section>
 
         <section id="today" class="feed-section" aria-labelledby="todayTitle">
           <div class="section-head">
             <div>
-              <p class="eyebrow">Curated feed</p>
-              <h2 id="todayTitle">今日精选</h2>
+              <p class="eyebrow">Verified feed</p>
+              <h2 id="todayTitle">今日真实精选</h2>
             </div>
             <div class="segmented" aria-label="按主题筛选">
               <button class="filter active" data-filter="all">全部</button>
@@ -105,88 +105,10 @@
             </div>
           </div>
 
-          <div class="content-grid">
-            <div class="lead-card" data-topic="workflow ux">
-              <div class="card-media media-voice">
-                <span>Realtime</span>
-              </div>
-              <div class="card-body">
-                <div class="card-meta">
-                  <span>OpenAI Developers</span>
-                  <time>07:36</time>
-                </div>
-                <h3>实时语音应用的提示指南更新</h3>
-                <p>
-                  新指南把语音产品中的推理强度、前导说明、工具调用、长会话状态等问题拆开讲清楚，适合语音交互设计和多轮客服体验参考。
-                </p>
-                <div class="designer-take">
-                  <strong>设计师看点</strong>
-                  <span>把“听不清、等太久、记不住上下文”转成可设计的状态和反馈。</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="news-list" id="newsList">
-              <article class="news-card" data-topic="visual risk" data-keywords="runway child safety c2pa video generation">
-                <div class="news-thumb thumb-safety"></div>
-                <div>
-                  <div class="card-meta">
-                    <span>Runway</span>
-                    <time>07:04</time>
-                  </div>
-                  <h3>视频生成平台强化儿童安全与来源标记</h3>
-                  <p>多层检测、人工复核和 C2PA 来源信号成为生成视频产品的默认设计约束。</p>
-                  <div class="tags">
-                    <span>视频生成</span><span>内容安全</span><span>平台规范</span>
-                  </div>
-                </div>
-              </article>
-
-              <article class="news-card" data-topic="workflow" data-keywords="openai cli api image edit transcription tts automation">
-                <div class="news-thumb thumb-cli"></div>
-                <div>
-                  <div class="card-meta">
-                    <span>OpenAI CLI</span>
-                    <time>06:39</time>
-                  </div>
-                  <h3>官方命令行工具让生成、编辑、转写更容易自动化</h3>
-                  <p>图像编辑、转录、TTS 和结构化输出可以被串进设计资产处理、素材整理和内容运营流程。</p>
-                  <div class="tags">
-                    <span>自动化</span><span>素材流程</span><span>开发协作</span>
-                  </div>
-                </div>
-              </article>
-
-              <article class="news-card" data-topic="ux risk" data-keywords="chatgpt chinese tone sycophancy localization">
-                <div class="news-thumb thumb-language"></div>
-                <div>
-                  <div class="card-meta">
-                    <span>WIRED / 中文体验</span>
-                    <time>05:39</time>
-                  </div>
-                  <h3>中文 AI 对话里的“讨好式语气”继续被讨论</h3>
-                  <p>这类语言风格问题提醒团队：AI 产品的语气、地域表达和情绪边界需要像界面一样被设计和测试。</p>
-                  <div class="tags">
-                    <span>本地化</span><span>对话设计</span><span>品牌语气</span>
-                  </div>
-                </div>
-              </article>
-
-              <article class="news-card" data-topic="visual ux" data-keywords="airpods camera siri wearable multimodal apple">
-                <div class="news-thumb thumb-wearable"></div>
-                <div>
-                  <div class="card-meta">
-                    <span>Apple rumor</span>
-                    <time>05月08日</time>
-                  </div>
-                  <h3>带摄像头的 AI 耳机传闻把多模态入口放到耳边</h3>
-                  <p>如果视觉问答进入耳机，设计重点会从屏幕 UI 迁移到提示音、隐私提示和环境感知反馈。</p>
-                  <div class="tags">
-                    <span>多模态</span><span>可穿戴</span><span>隐私提示</span>
-                  </div>
-                </div>
-              </article>
-            </div>
+          <div class="status-card" id="feedStatus">正在加载真实内容...</div>
+          <div class="content-grid" id="contentGrid" hidden>
+            <a class="lead-card" id="leadCard" href="#" target="_blank" rel="noopener noreferrer"></a>
+            <div class="news-list" id="newsList"></div>
           </div>
         </section>
 
@@ -258,13 +180,12 @@
             <p class="eyebrow">Five-minute brief</p>
             <h2 id="briefTitle">给今天早会的一句话</h2>
           </div>
-          <p>
-            本周 AI 工具的重点不是“又多了一个模型”，而是生成内容的安全标记、语音交互的可控性，以及设计团队如何把自动化嵌进真实流程。
-          </p>
+          <p id="briefText">加载真实条目后自动生成今日简报。</p>
         </section>
       </main>
     </div>
 
+    <script src="data/hotspots.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
