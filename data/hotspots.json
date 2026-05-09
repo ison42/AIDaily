@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T07:39:14.451Z",
+  "generatedAt": "2026-05-09T09:23:10.481Z",
   "itemCount": 18,
   "sources": [
     {
@@ -23,7 +23,7 @@
       "type": "中文商业科技媒体",
       "url": "https://36kr.com/feed",
       "ok": true,
-      "itemCount": 11,
+      "itemCount": 12,
       "error": null
     },
     {
@@ -31,11 +31,26 @@
       "type": "中文科技媒体",
       "url": "https://www.ithome.com/rss/",
       "ok": true,
-      "itemCount": 10,
+      "itemCount": 9,
       "error": null
     }
   ],
   "items": [
+    {
+      "id": "36氪:https://36kr.com/newsflashes/3801812857871876?f=rss",
+      "title": "光帆带摄像头AI耳机本月开售",
+      "summary": "36氪获悉，光帆科技官方账号发布发售预热海报。海报显示，全球首款具备视觉感知能力的主动式AI耳机——光帆全感AI耳机，将于5月15日正式开售。",
+      "url": "https://36kr.com/newsflashes/3801812857871876?f=rss",
+      "publishedAt": "2026-05-09T08:56:08.000Z",
+      "sourceName": "36氪",
+      "sourceType": "中文商业科技媒体",
+      "categories": [],
+      "topics": [
+        "visual"
+      ],
+      "relevanceScore": 90,
+      "designerTake": "关注它对视觉生成、品牌素材、内容生产或设计资产管理的影响。"
+    },
     {
       "id": "量子位:https://www.qbitai.com/2026/05/414496.html",
       "title": "百度发布文心 5.1：搜索能力登顶国内，预训练成本仅为业界 6%",
@@ -52,25 +67,56 @@
       "topics": [
         "workflow"
       ],
-      "relevanceScore": 82,
+      "relevanceScore": 81,
       "designerTake": "可以判断它是否能减少重复劳动，或改变设计与开发协作方式。"
     },
     {
-      "id": "量子位:https://www.qbitai.com/2026/05/414194.html",
-      "title": "GPT-5级推理能力塞进语音模型，OpenAI把同传翻译成本砍穿地板价",
-      "summary": "OpenAI上新三款实时语音模型",
-      "url": "https://www.qbitai.com/2026/05/414194.html",
-      "publishedAt": "2026-05-08T04:35:32.000Z",
+      "id": "IT之家:https://www.ithome.com/0/948/246.htm",
+      "title": "工信部启动人工智能科技伦理审查与服务先导计划，加快推动审查工作落地实施",
+      "summary": "IT之家 5 月 9 日消息，“工信微报”公众号今日发文称，近日，工业和信息化部印发通知，正式启动人工智能科技伦理审查与服务先导计划（以下简称“先导计划”），依托国家人工智能产业创新应用先导区所在省份， 率先探索人工智能科技伦理审查与服务的落地路径 ，健全多方参与、协同高效的治理机制，支撑人工智能负责任创新和产业高质量发展。 本次先导计划，进一步明确了地方政府部门和各类创新主体推进人工智能科技伦理审查与服务落地实施的具体操作路径，通过设",
+      "url": "https://www.ithome.com/0/948/246.htm",
+      "publishedAt": "2026-05-09T08:56:18.000Z",
+      "sourceName": "IT之家",
+      "sourceType": "中文科技媒体",
+      "categories": [],
+      "topics": [
+        "ux"
+      ],
+      "relevanceScore": 68,
+      "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
+    },
+    {
+      "id": "36氪:https://36kr.com/newsflashes/3801787739282952?f=rss",
+      "title": "字节跳动据悉计划将AI基础设施支出增加25%",
+      "summary": "据报道，随着内存芯片成本上涨以及字节跳动加速布局人工智能（AI），该公司已将今年的AI基础设施支出计划增加25%至2000亿元人民币。（财联社）",
+      "url": "https://36kr.com/newsflashes/3801787739282952?f=rss",
+      "publishedAt": "2026-05-09T08:18:28.000Z",
+      "sourceName": "36氪",
+      "sourceType": "中文商业科技媒体",
+      "categories": [],
+      "topics": [
+        "ux"
+      ],
+      "relevanceScore": 67,
+      "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
+    },
+    {
+      "id": "量子位:https://www.qbitai.com/2026/05/414827.html",
+      "title": "不更新参数就能强化学习！OpenAI翁家翌提出新范式：决策只需AI手搓一个.py 文件",
+      "summary": "实现过程开源可复现",
+      "url": "https://www.qbitai.com/2026/05/414827.html",
+      "publishedAt": "2026-05-09T08:07:08.000Z",
       "sourceName": "量子位",
       "sourceType": "中文 AI 媒体",
       "categories": [
         "资讯",
-        "OpenAI"
+        "首页轮播",
+        "强化学习"
       ],
       "topics": [
         "ux"
       ],
-      "relevanceScore": 76,
+      "relevanceScore": 67,
       "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
     },
     {
@@ -85,7 +131,7 @@
       "topics": [
         "ux"
       ],
-      "relevanceScore": 68,
+      "relevanceScore": 67,
       "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
     },
     {
@@ -104,7 +150,7 @@
       "topics": [
         "ux"
       ],
-      "relevanceScore": 68,
+      "relevanceScore": 67,
       "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
     },
     {
@@ -139,7 +185,7 @@
       "topics": [
         "ux"
       ],
-      "relevanceScore": 67,
+      "relevanceScore": 66,
       "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
     },
     {
@@ -154,7 +200,7 @@
       "topics": [
         "ux"
       ],
-      "relevanceScore": 67,
+      "relevanceScore": 66,
       "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
     },
     {
@@ -169,7 +215,7 @@
       "topics": [
         "ux"
       ],
-      "relevanceScore": 67,
+      "relevanceScore": 66,
       "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
     },
     {
@@ -185,7 +231,7 @@
         "ux",
         "risk"
       ],
-      "relevanceScore": 67,
+      "relevanceScore": 66,
       "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
     },
     {
@@ -200,22 +246,7 @@
       "topics": [
         "ux"
       ],
-      "relevanceScore": 67,
-      "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
-    },
-    {
-      "id": "IT之家:https://www.ithome.com/0/948/148.htm",
-      "title": "《连线》称“我会稳稳地接住你”成为 ChatGPT AI 中文口头禅",
-      "summary": "IT之家 5 月 9 日消息，《连线》（Wired）于 5 月 7 日发布博文，报道称在中文语境下，ChatGPT 出现一批高频口头禅，其中最典型的是“ 我会稳稳地接住你 ”。 在多数中文语境下，这句口头禅语气突兀、过度煽情，放在解题、写提示词等普通场景里尤其别扭。此外， ChatGPT 还频繁出现“砍一刀”这类带有强烈平台营销色彩的中文短语。 该媒体援引 Pangram 联合创始人兼首席执行官 Max Spero 观点，指出这种现象归",
-      "url": "https://www.ithome.com/0/948/148.htm",
-      "publishedAt": "2026-05-09T05:13:08.000Z",
-      "sourceName": "IT之家",
-      "sourceType": "中文科技媒体",
-      "categories": [],
-      "topics": [
-        "ux"
-      ],
-      "relevanceScore": 67,
+      "relevanceScore": 66,
       "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
     },
     {
@@ -231,51 +262,6 @@
         "首页轮播",
         "AI眼镜"
       ],
-      "topics": [
-        "ux"
-      ],
-      "relevanceScore": 67,
-      "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
-    },
-    {
-      "id": "IT之家:https://www.ithome.com/0/948/143.htm",
-      "title": "我国百余家单位联合共建“太空云”生态，推动天基信息服务智能化",
-      "summary": "IT之家 5 月 9 日消息，据央视新闻今日报道，在浙江省桐乡市举行的第二届空天信息技术大会上，中国科学院空天信息创新研究院联合百余家科研院所、高等院校及商业航天企业，正式提出共建“太空云”生态、推动形成“太空云”天基信息服务系统的倡议。 这一生态建设的核心目标，是将当前分散运行的通信、遥感、导航及算力卫星纳入统一的云原生智能服务体系进行协同整合，实现从“功能单星”向“智能星云”的范式跨越。 “太空云”的概念可以通俗地理解为，把天上的遥",
-      "url": "https://www.ithome.com/0/948/143.htm",
-      "publishedAt": "2026-05-09T04:47:04.000Z",
-      "sourceName": "IT之家",
-      "sourceType": "中文科技媒体",
-      "categories": [],
-      "topics": [
-        "ux"
-      ],
-      "relevanceScore": 67,
-      "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
-    },
-    {
-      "id": "36氪:https://36kr.com/newsflashes/3801547699281665?f=rss",
-      "title": "小鹏汽车：公司近期并未被“约谈”，也不存在被立案调查",
-      "summary": "36氪获悉，小鹏汽车法务部发文称，公司关注到，部分社交账号通过AI应用，恶意炒作“8家新能源车企被集中约谈”“3家涉嫌违规被立案调查”等信息，并将公司纳入名单，对公司品牌和声誉造成恶劣影响。经核实，公司近期并未收到此类不实信息提到的所谓“约谈”，也不存在被立案调查。公司已经对相关制谣传谣主体进行取证，后续会依法追究其法律责任。",
-      "url": "https://36kr.com/newsflashes/3801547699281665?f=rss",
-      "publishedAt": "2026-05-09T04:14:17.000Z",
-      "sourceName": "36氪",
-      "sourceType": "中文商业科技媒体",
-      "categories": [],
-      "topics": [
-        "ux"
-      ],
-      "relevanceScore": 66,
-      "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
-    },
-    {
-      "id": "IT之家:https://www.ithome.com/0/948/124.htm",
-      "title": "特斯拉、小鹏否认被纳入“8 家车企约谈”名单，已启动法律程序追责造谣者",
-      "summary": "IT之家 5 月 9 日消息，小鹏集团法务部今日发布声明，针对近期部分社交账号利用 AI 应用恶意炒作的信息作出正式回应。 声明称，这些账号传播的“8 家新能源车企被集中约谈”“3 家涉嫌违规被立案调查”等信息属于不实传闻，并将小鹏集团纳入相关名单，对公司品牌和声誉造成了恶劣影响。 小鹏集团法务部在声明中明确表示，经核实，公司近期并未收到此类不实信息所提及的所谓“约谈”，也不存在被立案调查的情况。对于这一造谣传谣行为，小鹏集团表示已经对",
-      "url": "https://www.ithome.com/0/948/124.htm",
-      "publishedAt": "2026-05-09T03:48:08.000Z",
-      "sourceName": "IT之家",
-      "sourceType": "中文科技媒体",
-      "categories": [],
       "topics": [
         "ux"
       ],
@@ -296,7 +282,7 @@
       "topics": [
         "ux"
       ],
-      "relevanceScore": 66,
+      "relevanceScore": 65,
       "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
     },
     {
@@ -311,7 +297,7 @@
       "topics": [
         "ux"
       ],
-      "relevanceScore": 66,
+      "relevanceScore": 65,
       "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
     },
     {
@@ -326,8 +312,28 @@
       "topics": [
         "workflow"
       ],
-      "relevanceScore": 63,
+      "relevanceScore": 62,
       "designerTake": "可以判断它是否能减少重复劳动，或改变设计与开发协作方式。"
+    },
+    {
+      "id": "量子位:https://www.qbitai.com/2026/05/414428.html",
+      "title": "持续领跑！商汤大装置稳居中国MaaS市场第一梯队",
+      "summary": "位列第二",
+      "url": "https://www.qbitai.com/2026/05/414428.html",
+      "publishedAt": "2026-05-08T11:09:17.000Z",
+      "sourceName": "量子位",
+      "sourceType": "中文 AI 媒体",
+      "categories": [
+        "资讯",
+        "IDC",
+        "商汤科技",
+        "大装置"
+      ],
+      "topics": [
+        "ux"
+      ],
+      "relevanceScore": 57,
+      "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
     }
   ]
 }
