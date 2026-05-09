@@ -8,4 +8,4 @@
 
 ## 部署
 
-仓库包含 GitHub Pages workflow。推送到 `main` 分支后会自动部署静态页面。
+站点可以通过 GitHub Pages 的 `gh-pages` 分支部署。
