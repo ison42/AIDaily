@@ -1,5 +1,5 @@
 window.AI_DESIGN_DAILY_DATA = {
-  "generatedAt": "2026-05-09T09:23:10.481Z",
+  "generatedAt": "2026-05-10T13:19:25.189Z",
   "itemCount": 18,
   "sources": [
     {
@@ -23,7 +23,7 @@ window.AI_DESIGN_DAILY_DATA = {
       "type": "中文商业科技媒体",
       "url": "https://36kr.com/feed",
       "ok": true,
-      "itemCount": 12,
+      "itemCount": 6,
       "error": null
     },
     {
@@ -31,249 +31,80 @@ window.AI_DESIGN_DAILY_DATA = {
       "type": "中文科技媒体",
       "url": "https://www.ithome.com/rss/",
       "ok": true,
-      "itemCount": 9,
+      "itemCount": 14,
       "error": null
     }
   ],
   "items": [
     {
-      "id": "36氪:https://36kr.com/newsflashes/3801812857871876?f=rss",
-      "title": "光帆带摄像头AI耳机本月开售",
-      "summary": "36氪获悉，光帆科技官方账号发布发售预热海报。海报显示，全球首款具备视觉感知能力的主动式AI耳机——光帆全感AI耳机，将于5月15日正式开售。",
-      "url": "https://36kr.com/newsflashes/3801812857871876?f=rss",
-      "publishedAt": "2026-05-09T08:56:08.000Z",
-      "sourceName": "36氪",
-      "sourceType": "中文商业科技媒体",
+      "id": "IT之家:https://www.ithome.com/0/948/491.htm",
+      "title": "央视调查：AI“买家秀”误导消费者，未标注 AI 生成",
+      "summary": "IT之家 5 月 10 日消息，据央视新闻今日报道，在网购场景中，由于消费者无法直接接触商品，所以评论区的买家秀、用户评价是很多人判断商品质量、适配度的核心依据，承载着“真实反馈”的核心价值。 最近网购时，在一些电商平台的评论区内，出现了用 AI 生成的精美“买家秀”，这类图片取代了真实用户的实拍分享，虽然看起来图片精致、效果完美，但很多人收到货物后， 却发现这些所谓的“买家秀”，与商品实物相差甚远 。AI 生成图像功能被不良商家滥用，",
+      "url": "https://www.ithome.com/0/948/491.htm",
+      "publishedAt": "2026-05-10T09:44:15.000Z",
+      "sourceName": "IT之家",
+      "sourceType": "中文科技媒体",
       "categories": [],
       "topics": [
-        "visual"
+        "visual",
+        "ux"
       ],
-      "relevanceScore": 90,
+      "relevanceScore": 104,
       "designerTake": "关注它对视觉生成、品牌素材、内容生产或设计资产管理的影响。"
     },
     {
-      "id": "量子位:https://www.qbitai.com/2026/05/414496.html",
-      "title": "百度发布文心 5.1：搜索能力登顶国内，预训练成本仅为业界 6%",
-      "summary": "搜索、知识、Agent 能力全面提升",
-      "url": "https://www.qbitai.com/2026/05/414496.html",
-      "publishedAt": "2026-05-09T03:11:20.000Z",
-      "sourceName": "量子位",
-      "sourceType": "中文 AI 媒体",
-      "categories": [
-        "资讯",
-        "文心5.1",
-        "百度"
-      ],
+      "id": "IT之家:https://www.ithome.com/0/948/452.htm",
+      "title": "蓝芯算力联合中国移动实现 RISC-V + BC-LINUX 全栈融合方案适配",
+      "summary": "IT之家 5 月 10 日消息，中国移动 2026 移动云大会本周在苏州举行，会上高性能数据中心 RISC-V 芯片设计企业蓝芯算力展示了其与中国移动云能力中心联合适配的 RISC-V + BC-LINUX 全栈融合方案。 该方案以 蓝芯 LX500 智通融合 CPU 为核心 ，搭配移动云深度优化的 BC-LINUX 操作系统，打造覆盖芯片、整机、系统及生态的完整自主可控算力底座，为云计算、5G/6G 通信、AI 大模型场景，提供高性能",
+      "url": "https://www.ithome.com/0/948/452.htm",
+      "publishedAt": "2026-05-10T06:26:38.000Z",
+      "sourceName": "IT之家",
+      "sourceType": "中文科技媒体",
+      "categories": [],
       "topics": [
-        "workflow"
+        "visual",
+        "ux"
       ],
-      "relevanceScore": 81,
-      "designerTake": "可以判断它是否能减少重复劳动，或改变设计与开发协作方式。"
+      "relevanceScore": 103,
+      "designerTake": "关注它对视觉生成、品牌素材、内容生产或设计资产管理的影响。"
     },
     {
-      "id": "IT之家:https://www.ithome.com/0/948/246.htm",
-      "title": "工信部启动人工智能科技伦理审查与服务先导计划，加快推动审查工作落地实施",
-      "summary": "IT之家 5 月 9 日消息，“工信微报”公众号今日发文称，近日，工业和信息化部印发通知，正式启动人工智能科技伦理审查与服务先导计划（以下简称“先导计划”），依托国家人工智能产业创新应用先导区所在省份， 率先探索人工智能科技伦理审查与服务的落地路径 ，健全多方参与、协同高效的治理机制，支撑人工智能负责任创新和产业高质量发展。 本次先导计划，进一步明确了地方政府部门和各类创新主体推进人工智能科技伦理审查与服务落地实施的具体操作路径，通过设",
-      "url": "https://www.ithome.com/0/948/246.htm",
-      "publishedAt": "2026-05-09T08:56:18.000Z",
+      "id": "IT之家:https://www.ithome.com/0/948/484.htm",
+      "title": "马斯克入局 AI 编程赛道：SpaceXAI 桌面编程应用 Grok Build 曝光",
+      "summary": "IT之家 5 月 10 日消息，xAI 近期已更名为 SpaceXAI，消息称该公司即将推出桌面端编程应用 Grok Build。今日，Grok 网页端意外出现一个“Grok 计算机”按钮，短暂曝光了这款应用的存在。 该控件原本可供用户在 Grok 计算机文件夹与谷歌云端硬盘之间进行选择，但这项底层功能当时无法使用，且很快就被下架移除。此次意外泄露意味着，即便官方尚未敲定正式上线时间，相关发布部署流程已准备就绪。 IT之家注意到，除了这",
+      "url": "https://www.ithome.com/0/948/484.htm",
+      "publishedAt": "2026-05-10T08:21:22.000Z",
       "sourceName": "IT之家",
       "sourceType": "中文科技媒体",
       "categories": [],
       "topics": [
         "ux"
       ],
-      "relevanceScore": 68,
+      "relevanceScore": 86,
       "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
     },
     {
-      "id": "36氪:https://36kr.com/newsflashes/3801787739282952?f=rss",
-      "title": "字节跳动据悉计划将AI基础设施支出增加25%",
-      "summary": "据报道，随着内存芯片成本上涨以及字节跳动加速布局人工智能（AI），该公司已将今年的AI基础设施支出计划增加25%至2000亿元人民币。（财联社）",
-      "url": "https://36kr.com/newsflashes/3801787739282952?f=rss",
-      "publishedAt": "2026-05-09T08:18:28.000Z",
-      "sourceName": "36氪",
-      "sourceType": "中文商业科技媒体",
-      "categories": [],
-      "topics": [
-        "ux"
-      ],
-      "relevanceScore": 67,
-      "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
-    },
-    {
-      "id": "量子位:https://www.qbitai.com/2026/05/414827.html",
-      "title": "不更新参数就能强化学习！OpenAI翁家翌提出新范式：决策只需AI手搓一个.py 文件",
-      "summary": "实现过程开源可复现",
-      "url": "https://www.qbitai.com/2026/05/414827.html",
-      "publishedAt": "2026-05-09T08:07:08.000Z",
-      "sourceName": "量子位",
-      "sourceType": "中文 AI 媒体",
-      "categories": [
-        "资讯",
-        "首页轮播",
-        "强化学习"
-      ],
-      "topics": [
-        "ux"
-      ],
-      "relevanceScore": 67,
-      "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
-    },
-    {
-      "id": "36氪:https://36kr.com/newsflashes/3801731549371905?f=rss",
-      "title": "百度正式发布文心大模型5.1",
-      "summary": "36氪获悉，百度正式发布新一代基础大模型文心大模型 5.1。据官方介绍，文心 5.1采用“多维弹性预训练”技术，仅以业界同规模模型约6%的预训练成本，达到基础效果领先水平，登上LMArena搜索榜国内第一。",
-      "url": "https://36kr.com/newsflashes/3801731549371905?f=rss",
-      "publishedAt": "2026-05-09T07:21:19.000Z",
-      "sourceName": "36氪",
-      "sourceType": "中文商业科技媒体",
-      "categories": [],
-      "topics": [
-        "ux"
-      ],
-      "relevanceScore": 67,
-      "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
-    },
-    {
-      "id": "量子位:https://www.qbitai.com/2026/05/414788.html",
-      "title": "谷歌「AI联合数学家」来了！刷新最难数学AI基准SOTA，牛津教授用它解开群论悬案",
-      "summary": "谷歌AI for Math迈出最新一步",
-      "url": "https://www.qbitai.com/2026/05/414788.html",
-      "publishedAt": "2026-05-09T07:12:48.000Z",
-      "sourceName": "量子位",
-      "sourceType": "中文 AI 媒体",
-      "categories": [
-        "资讯",
-        "AI",
-        "谷歌"
-      ],
-      "topics": [
-        "ux"
-      ],
-      "relevanceScore": 67,
-      "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
-    },
-    {
-      "id": "量子位:https://www.qbitai.com/2026/05/414547.html",
-      "title": "VLA死了，遥操也死了！英伟达机器人一号位说的",
-      "summary": "Jim Fan全新暴论出炉",
-      "url": "https://www.qbitai.com/2026/05/414547.html",
-      "publishedAt": "2026-05-09T06:24:18.000Z",
-      "sourceName": "量子位",
-      "sourceType": "中文 AI 媒体",
-      "categories": [
-        "资讯",
-        "VLA",
-        "世界模型",
-        "英伟达"
-      ],
-      "topics": [
-        "ux"
-      ],
-      "relevanceScore": 67,
-      "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
-    },
-    {
-      "id": "IT之家:https://www.ithome.com/0/948/166.htm",
-      "title": "极氪法务部发布声明：未收到任何“约谈”通知，已对造谣者进行取证",
-      "summary": "IT之家 5 月 9 日消息，继小鹏汽车、特斯拉、理想汽车、蔚来汽车、比亚迪、广汽埃安等多家车企之后，吉利控股集团旗下高端电动车品牌极氪也发布声明对“约谈”传闻予以澄清。 极氪法务部称，注意到部分社交账号恶意炒作“8 家新能源车企被约谈”等信息，并利用 AI 软件捏造极氪被“约谈”的不实信息。 极氪强调，公司并未收到相关所谓的“约谈”，针对恶意攻击和抹黑造谣行为，已收集并固定证据，将依法维护自身权益，同时表示希望与行业伙伴和广大用户一起",
-      "url": "https://www.ithome.com/0/948/166.htm",
-      "publishedAt": "2026-05-09T06:06:00.000Z",
+      "id": "IT之家:https://www.ithome.com/0/948/502.htm",
+      "title": "罗技加码投入，押注 AI、游戏及商用市场",
+      "summary": "IT之家 5 月 10 日消息，据路透社报道，罗技国际（Logitech International）首席执行官汉内克 · 法贝尔（Hanneke Faber）表示，尽管市场愈发担忧伊朗战争可能引发全球经济放缓，公司今年仍将加大产品研发与营销投入。 这家瑞士与美国合资的键盘、鼠标及视频会议设备制造商，去年为抵消美国总统唐纳德 · 特朗普加征关税的影响而削减成本，如今正押注游戏业务、企业客户及人工智能设备以维持增长。 尽管中东地区供应中断",
+      "url": "https://www.ithome.com/0/948/502.htm",
+      "publishedAt": "2026-05-10T10:12:10.000Z",
       "sourceName": "IT之家",
       "sourceType": "中文科技媒体",
       "categories": [],
       "topics": [
+        "visual",
         "ux"
       ],
-      "relevanceScore": 66,
-      "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
+      "relevanceScore": 84,
+      "designerTake": "关注它对视觉生成、品牌素材、内容生产或设计资产管理的影响。"
     },
     {
-      "id": "IT之家:https://www.ithome.com/0/948/161.htm",
-      "title": "《GTA6》预算数十亿美元，Take-Two CEO 泽尔尼克直言开发大型 3A 作品是高风险游戏",
-      "summary": "IT之家 5 月 9 日消息，R 星母公司 Take-Two CEO 施特劳斯 · 泽尔尼克本周（5 月 5 日）接受彭博采访时表示，公司已为《GTA6》投资数十亿美元。 他对此表示：“游戏开发成本不断攀升，我们的目标是提供全球最高质量的娱乐体验，这代价不菲。AI 影响无法抵消这些成本，我们也没看到开发成本下降的迹象”。 近十年来，3A 游戏的开发成本屡创新高，技术和画面复杂度的增加导致各大公司不断扩大开发团队、开发预算。一些高成本游戏",
-      "url": "https://www.ithome.com/0/948/161.htm",
-      "publishedAt": "2026-05-09T05:56:36.000Z",
-      "sourceName": "IT之家",
-      "sourceType": "中文科技媒体",
-      "categories": [],
-      "topics": [
-        "ux"
-      ],
-      "relevanceScore": 66,
-      "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
-    },
-    {
-      "id": "36氪:https://36kr.com/newsflashes/3801625136684804?f=rss",
-      "title": "东土科技等在湖北成立智能机器人产业发展公司，注册资本3.5亿",
-      "summary": "36氪获悉，天眼查App显示，近日，湖北省智能机器人产业发展有限公司成立，法定代表人为李平，注册资本3.5亿人民币，经营范围包括工业自动控制系统装置制造、人工智能基础软件开发、人工智能应用软件开发、智能机器人的研发等，由东土科技、宜昌启宸投资发展有限公司、上海科鸿创智技术有限公司共同持股。",
-      "url": "https://36kr.com/newsflashes/3801625136684804?f=rss",
-      "publishedAt": "2026-05-09T05:48:10.000Z",
-      "sourceName": "36氪",
-      "sourceType": "中文商业科技媒体",
-      "categories": [],
-      "topics": [
-        "ux"
-      ],
-      "relevanceScore": 66,
-      "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
-    },
-    {
-      "id": "IT之家:https://www.ithome.com/0/948/153.htm",
-      "title": "李想回应理想 L9 四年才换代：汽车不是手机，安全验证无法提速、AI 的帮助十分有限",
-      "summary": "IT之家 5 月 9 日消息，理想汽车创始人、CEO 李想就全新一代理想 L9 换代周期长达四年的疑问进行了公开回应。 理想 L9 于 2022 年 6 月首次上市，截至 2026 年 5 月，其换代周期已接近四年，显著长于当前消费电子行业的迭代速度。 李想对此解释称，汽车产品与手机等消费电子产品有本质区别，汽车直接关乎用户家庭的生命安全，其开发过程存在大量验证工作，必须经过长时间的反复测试与打磨，不可能依循手机的快速迭代逻辑。 他以媒",
-      "url": "https://www.ithome.com/0/948/153.htm",
-      "publishedAt": "2026-05-09T05:26:22.000Z",
-      "sourceName": "IT之家",
-      "sourceType": "中文科技媒体",
-      "categories": [],
-      "topics": [
-        "ux",
-        "risk"
-      ],
-      "relevanceScore": 66,
-      "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
-    },
-    {
-      "id": "IT之家:https://www.ithome.com/0/948/151.htm",
-      "title": "TrendForce：龙头减产影响供应，成熟制程酝酿涨价",
-      "summary": "IT之家 5 月 9 日消息，TrendForce（集邦）本月 7 日表示，在台积电和三星电子这两大晶圆代工巨头针对成熟制程调减产能的背景下， 该领域的新一轮涨价正在酝酿之中 。 图源：Pexels 成熟制程可按晶圆尺寸划分为 8 英寸 (200mm) 和 12 英寸 (300mm) 两个细分市场。 其中在 8 英寸方面，台积电和三星晶圆代工均在减产，同时 AI 浪潮带动服务器、边缘设备对电源管理、功率半导体的需求，导致十大晶圆代工业者",
-      "url": "https://www.ithome.com/0/948/151.htm",
-      "publishedAt": "2026-05-09T05:21:12.000Z",
-      "sourceName": "IT之家",
-      "sourceType": "中文科技媒体",
-      "categories": [],
-      "topics": [
-        "ux"
-      ],
-      "relevanceScore": 66,
-      "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
-    },
-    {
-      "id": "量子位:https://www.qbitai.com/2026/05/414501.html",
-      "title": "行业首创空间3D显示，还能主动提醒和帮忙叫车，千问AI眼镜这操作真把我看愣了",
-      "summary": "眼镜里的信息第一次「立」起来了",
-      "url": "https://www.qbitai.com/2026/05/414501.html",
-      "publishedAt": "2026-05-09T04:50:55.000Z",
-      "sourceName": "量子位",
-      "sourceType": "中文 AI 媒体",
-      "categories": [
-        "资讯",
-        "首页轮播",
-        "AI眼镜"
-      ],
-      "topics": [
-        "ux"
-      ],
-      "relevanceScore": 66,
-      "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
-    },
-    {
-      "id": "量子位:https://www.qbitai.com/2026/05/414445.html",
-      "title": "打破科技数据壁垒！智会心研官宣：高级检索+AI深度分析，面向个人免费开放！",
-      "summary": "智会心研面向个人用户免费开放高级检索与 AI 深度分析核心功能，涵盖专利 AI 检索、AI 伴读、图表分析及多智能体协作，助力研发与情报分析高效完成，降低技术创新门槛。",
-      "url": "https://www.qbitai.com/2026/05/414445.html",
-      "publishedAt": "2026-05-09T03:01:52.000Z",
+      "id": "量子位:https://www.qbitai.com/2026/05/415023.html",
+      "title": "阶跃最新语音模型位列 Artificial Analysis 评测榜中国第一",
+      "summary": "",
+      "url": "https://www.qbitai.com/2026/05/415023.html",
+      "publishedAt": "2026-05-09T10:29:31.000Z",
       "sourceName": "量子位",
       "sourceType": "中文 AI 媒体",
       "categories": [
@@ -282,15 +113,49 @@ window.AI_DESIGN_DAILY_DATA = {
       "topics": [
         "ux"
       ],
-      "relevanceScore": 65,
+      "relevanceScore": 76,
       "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
     },
     {
-      "id": "36氪:https://36kr.com/p/3801461350702855?f=rss",
-      "title": "AI开始接管年轻人的「精神自留地」",
-      "summary": "撰文｜锅包柚 封面来源｜Unsplash（AI辅助扩图） 五一假期已经结束，但打工人的“节后综合症”并未消退。 面对永远99+的工作群消息，和改不完的PPT，打工人蝈蝈在摸鱼时打开灵光APP里的一个小游戏——“老板被我fire了”。 屏幕里跳出老板最爱的PUA话术：“你们要相信我的眼光”“现在的付出都是值得的”。她疯狂点击， 伴随着金币掉落的音效，在赛博世界里体验了一把将老板痛扁、原地暴富的爽感。 “老板被我fire了” 这个让蝈蝈短暂",
-      "url": "https://36kr.com/p/3801461350702855?f=rss",
-      "publishedAt": "2026-05-09T02:54:40.000Z",
+      "id": "量子位:https://www.qbitai.com/2026/05/415010.html",
+      "title": "美图RoboNeo全新升级：首创影像创作Agent Teams",
+      "summary": "打造“赛博乙方天团”",
+      "url": "https://www.qbitai.com/2026/05/415010.html",
+      "publishedAt": "2026-05-09T09:22:38.000Z",
+      "sourceName": "量子位",
+      "sourceType": "中文 AI 媒体",
+      "categories": [
+        "资讯",
+        "RoboNeo",
+        "美图公司"
+      ],
+      "topics": [
+        "workflow"
+      ],
+      "relevanceScore": 72,
+      "designerTake": "可以判断它是否能减少重复劳动，或改变设计与开发协作方式。"
+    },
+    {
+      "id": "IT之家:https://www.ithome.com/0/948/523.htm",
+      "title": "听不见却能感知到：AI 数据中心次声波污染引发投诉",
+      "summary": "IT之家 5 月 10 日消息，数据中心项目一直因对电价的影响遭到居民和社区的抵制，而如今另一项投诉也愈发频繁出现 —— 噪音污染。其中一种噪音污染形式为次声波，这种声波人类无法听见，但身体可以感知到，还有不少人声称次声波会引发头痛、失眠、恶心以及焦虑等不适症状。除此之外，还有普通的常规噪音污染。 非营利机构环境与能源研究研究所（EESI）表示，这类工业场地发出的高频和低频声响，能在周边数百英尺范围内被听到、感知到，其噪音等级最高可达 ",
+      "url": "https://www.ithome.com/0/948/523.htm",
+      "publishedAt": "2026-05-10T11:25:18.000Z",
+      "sourceName": "IT之家",
+      "sourceType": "中文科技媒体",
+      "categories": [],
+      "topics": [
+        "ux"
+      ],
+      "relevanceScore": 67,
+      "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
+    },
+    {
+      "id": "36氪:https://36kr.com/newsflashes/3803150542675465?f=rss",
+      "title": "算力、绿能协同悄然提速",
+      "summary": "5月10日，2026年，算电协同被写入政府工作报告，成为社会关注的热词。“十五五”规划纲要也明确提出，推动绿色电力与算力协同布局。记者近日走访了解到，内蒙古、宁夏、贵州等新能源富集地区，通过布局建设源网荷储一体化、绿电直连等重点项目，充分挖掘西部地区就地消纳潜力，促进新能源与算力设施的协同规划布局。一场算力和绿能的“双向奔赴”正在悄然提速。 (新华社)",
+      "url": "https://36kr.com/newsflashes/3803150542675465?f=rss",
+      "publishedAt": "2026-05-10T07:24:47.000Z",
       "sourceName": "36氪",
       "sourceType": "中文商业科技媒体",
       "categories": [],
@@ -301,38 +166,162 @@ window.AI_DESIGN_DAILY_DATA = {
       "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
     },
     {
-      "id": "IT之家:https://www.ithome.com/0/948/152.htm",
-      "title": "索尼 AI 新专利，自动化记录 / 制作你的游戏高光时刻",
-      "summary": "IT之家 5 月 9 日消息，游戏媒体 mp1st 昨日（5 月 8 日）发布博文，报道称索尼互动娱乐获批一项 PlayStation 相关专利，核心是用 AI（人工智能）自动筛选玩家游戏过程中的高光时刻，并整理成适合社交平台传播的内容。 该专利文件编号 ID 为 12616902，于 2026 年 5 月 5 日在美国专利商标局公示。该专利描述指出，玩家在分享内容时，最费时环节就是后期制作。 很多玩家如果想要发布精彩瞬间，往往要先录制",
-      "url": "https://www.ithome.com/0/948/152.htm",
-      "publishedAt": "2026-05-09T05:25:10.000Z",
+      "id": "IT之家:https://www.ithome.com/0/948/468.htm",
+      "title": "消息称阿里巴巴将深度整合千问与淘宝，打造 AI 对话式购物新体验",
+      "summary": "IT之家 5 月 10 日消息，据路透社报道，知情人士透露，阿里巴巴正准备官宣将旗下人工智能平台千问与电商平台淘宝进行深度整合，此举旨在以对话式购物替代传统关键词搜索，带动消费交易。 此次整合落地后，消费者无需手动翻阅商品列表，只需在千问 App 中与 AI 智能助手对话，即可完成商品浏览、比价及下单购买全流程。 据报道，千问 App 将接入淘宝、天猫超 40 亿款全品类商品库，依托专属「技能库」实现物流管理、售后服务等能力；同时还会根",
+      "url": "https://www.ithome.com/0/948/468.htm",
+      "publishedAt": "2026-05-10T07:09:02.000Z",
+      "sourceName": "IT之家",
+      "sourceType": "中文科技媒体",
+      "categories": [],
+      "topics": [
+        "ux"
+      ],
+      "relevanceScore": 65,
+      "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
+    },
+    {
+      "id": "IT之家:https://www.ithome.com/0/948/466.htm",
+      "title": "AI 财富涌入楼市，旧金山豪宅成交价疯涨",
+      "summary": "IT之家 5 月 10 日消息，旧金山的房地产向来门槛极高、普通人难以企及。而眼下这座城市高端房产市场创下的成交纪录，甚至突破了这座素来以房价高不可攀闻名的城市原本所能想象的价格上限。 以旧金山最热门的宜居社区之一考尔霍洛的一套六居室房源为例，房屋面积 5700 平方英尺（IT之家注：约 529.5 平方米）。该房源两周前挂牌价定为 795 万美元（现汇率约合 5418.7 万元人民币），本身价格已然不菲，最终却以 1500 万美元（现",
+      "url": "https://www.ithome.com/0/948/466.htm",
+      "publishedAt": "2026-05-10T06:58:15.000Z",
+      "sourceName": "IT之家",
+      "sourceType": "中文科技媒体",
+      "categories": [],
+      "topics": [
+        "ux"
+      ],
+      "relevanceScore": 65,
+      "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
+    },
+    {
+      "id": "IT之家:https://www.ithome.com/0/948/457.htm",
+      "title": "英伟达今年已向 AI 企业投资超 400 亿美元，OpenAI 获最大注资",
+      "summary": "IT之家 5 月 10 日消息，据 CNBC 报道，英伟达持续大力投资人工智能生态，仅在 2026 年前几个月，就已向人工智能企业投入超 400 亿美元（IT之家注：现汇率约合 2726.37 亿元人民币）股权资金。 这笔巨额投资中，大部分来自单笔重磅布局 —— 向 OpenAI 注资 300 亿美元。此外，这家芯片巨头还官宣了七笔数十亿美元级上市公司投资；最新两笔分别是向玻璃制造商康宁最高投资 32 亿美元、向数据中心运营商 IREN",
+      "url": "https://www.ithome.com/0/948/457.htm",
+      "publishedAt": "2026-05-10T06:43:10.000Z",
+      "sourceName": "IT之家",
+      "sourceType": "中文科技媒体",
+      "categories": [],
+      "topics": [
+        "ux"
+      ],
+      "relevanceScore": 65,
+      "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
+    },
+    {
+      "id": "IT之家:https://www.ithome.com/0/948/532.htm",
+      "title": "昆仑万维董事长方汉：每月订阅 AI 像交水电费，至少花 100 元在 Token 上才不会掉队",
+      "summary": "IT之家 5 月 10 日消息，5 月 7 日，昆仑万维董事长兼总经理方汉对凤凰网财经《封面》表示，AI 时代普通人要改变调整就要多用 AI、熟能生巧；每月花 100 元左右订阅 AI 服务就像交水电费， 至少花 100 元在 AI Token 上才不会掉队 。 在他看来，普通人使用 AI 工具的 Token 量级有限，人与人之间的使用差距会拉得非常大。普通人的上升阶梯正被人为撕裂，过去职场从新手到老手、再到管理岗位的成长路径十分顺畅，",
+      "url": "https://www.ithome.com/0/948/532.htm",
+      "publishedAt": "2026-05-10T12:47:18.000Z",
       "sourceName": "IT之家",
       "sourceType": "中文科技媒体",
       "categories": [],
       "topics": [
         "workflow"
       ],
-      "relevanceScore": 62,
+      "relevanceScore": 64,
       "designerTake": "可以判断它是否能减少重复劳动，或改变设计与开发协作方式。"
     },
     {
-      "id": "量子位:https://www.qbitai.com/2026/05/414428.html",
-      "title": "持续领跑！商汤大装置稳居中国MaaS市场第一梯队",
-      "summary": "位列第二",
-      "url": "https://www.qbitai.com/2026/05/414428.html",
-      "publishedAt": "2026-05-08T11:09:17.000Z",
+      "id": "IT之家:https://www.ithome.com/0/948/451.htm",
+      "title": "超频三推出 AI 工作站解决方案，涵盖机箱、电源、散热",
+      "summary": "IT之家 5 月 10 日消息，超频三 (PCcooler, CPS) 昨日正式推出 AI 工作站一站式解决方案，涵盖机箱、电源、散热类别。 该产品阵容包含部分IT之家此前已有介绍的产品，包括 SR700 超全塔工作站机箱，处理器风冷散热器 TR620M X、TS700D，以及 F9 R120、F5 T120 这两款风扇。 而在新产品部分，超频三此次宣布了 功率至高可达 2500W 的 Cybenetics 钛金效率认证 SU 系列电源",
+      "url": "https://www.ithome.com/0/948/451.htm",
+      "publishedAt": "2026-05-10T06:18:41.000Z",
+      "sourceName": "IT之家",
+      "sourceType": "中文科技媒体",
+      "categories": [],
+      "topics": [
+        "ux"
+      ],
+      "relevanceScore": 64,
+      "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
+    },
+    {
+      "id": "IT之家:https://www.ithome.com/0/948/436.htm",
+      "title": "HarmonyOS 7 将至？华为开发者大会 HDC 2026 活动详情公布，将发布生态全新成果等",
+      "summary": "IT之家 5 月 10 日消息，华为开发者大会 HDC 2026 已官宣定档 6 月 12 日 ~14 日，早鸟票已于 4 月 29 日开售。 华为官方公众号“HarmonyOS 开发者技术”昨晚分享了 HDC 2026 的活动详情。其中提到， 本届 HDC 2026 将发布 HarmonyOS 全新版本、鸿蒙 AI 核心能力，以及生态全新成果等 。 IT之家注意到，此前有传言称华为今年并不会发布 HarmonyOS 7，但结合官方已给",
+      "url": "https://www.ithome.com/0/948/436.htm",
+      "publishedAt": "2026-05-10T04:23:54.000Z",
+      "sourceName": "IT之家",
+      "sourceType": "中文科技媒体",
+      "categories": [],
+      "topics": [
+        "ux"
+      ],
+      "relevanceScore": 64,
+      "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
+    },
+    {
+      "id": "量子位:https://www.qbitai.com/2026/05/415031.html",
+      "title": "浙大校友用AI突破32年拉姆齐数下界",
+      "summary": "拉姆齐数R(3,17) 下界从92提升至93",
+      "url": "https://www.qbitai.com/2026/05/415031.html",
+      "publishedAt": "2026-05-10T04:01:40.000Z",
       "sourceName": "量子位",
       "sourceType": "中文 AI 媒体",
       "categories": [
         "资讯",
-        "IDC",
-        "商汤科技",
-        "大装置"
+        "首页轮播",
+        "拉姆齐数"
       ],
       "topics": [
         "ux"
       ],
-      "relevanceScore": 57,
+      "relevanceScore": 63,
+      "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
+    },
+    {
+      "id": "36氪:https://36kr.com/p/3802822550839047?f=rss",
+      "title": "Ozon大中华区总裁Simon Huang：中国卖家，正在涌向俄罗斯｜专访",
+      "summary": "编者按：上个月月底，36氪在厦门参加了一场Ozon全球招商启动大会，我们发现现场人山人海。火热的出海和国内经济形成鲜明对比，特别是一组数据吸引了我们注意：尽管俄罗斯电商渗透率在2025年才23%，但是Ozon在2017年至2025年间，实现了91%的年均复合增长率。 这些高增长数据背后，似乎隐藏着比较大的商业机会，但机会究竟是什么？中国卖家如何在AI时代抓住？那边电商处于什么阶段？带着这些疑问，36氪和Ozon大中华区总裁Simon H",
+      "url": "https://36kr.com/p/3802822550839047?f=rss",
+      "publishedAt": "2026-05-10T02:18:57.000Z",
+      "sourceName": "36氪",
+      "sourceType": "中文商业科技媒体",
+      "categories": [],
+      "topics": [
+        "ux"
+      ],
+      "relevanceScore": 62,
+      "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
+    },
+    {
+      "id": "量子位:https://www.qbitai.com/2026/05/415027.html",
+      "title": "太初元碁携龙虾一体机亮相北京科博会",
+      "summary": "",
+      "url": "https://www.qbitai.com/2026/05/415027.html",
+      "publishedAt": "2026-05-09T12:21:08.000Z",
+      "sourceName": "量子位",
+      "sourceType": "中文 AI 媒体",
+      "categories": [
+        "资讯"
+      ],
+      "topics": [
+        "ux"
+      ],
+      "relevanceScore": 56,
+      "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
+    },
+    {
+      "id": "量子位:https://www.qbitai.com/2026/05/415019.html",
+      "title": "两项AI政策发布，范式智能战略布局与产业方向高度契合",
+      "summary": "围绕电力交易、能源调度、智能预测与决策等场景探索AI应用落地",
+      "url": "https://www.qbitai.com/2026/05/415019.html",
+      "publishedAt": "2026-05-09T09:53:25.000Z",
+      "sourceName": "量子位",
+      "sourceType": "中文 AI 媒体",
+      "categories": [
+        "资讯",
+        "范式智能"
+      ],
+      "topics": [
+        "ux"
+      ],
+      "relevanceScore": 56,
       "designerTake": "适合从交互反馈、对话语气、状态设计和用户信任角度拆解。"
     }
   ]
